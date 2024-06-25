@@ -23,7 +23,7 @@ const Draft = () => {
   const others = useOthersMapped(
     (other) => ({
       pencilDraft: other.presence.pencilDraft,
-      pencilColor: other.presence.pencilColor,
+      pencilColor: other.presence.penColor,
     }),
     shallow
   );

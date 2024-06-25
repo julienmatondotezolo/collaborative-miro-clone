@@ -20,7 +20,7 @@ export const Room = ({ children, roomId, fallback }: RoomProps) => {
         cursor: null,
         selection: [],
         pencilDraft: null,
-        pencilColor: null,
+        penColor: null,
       }}
       initialStorage={{
         layers: new LiveMap<string, LiveObject<Layer>>(),

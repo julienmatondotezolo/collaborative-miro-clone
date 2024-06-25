@@ -245,7 +245,7 @@ export const Canvas = ({ boardId }: CanvasProps) => {
     ({ setMyPresence }, point: Point, pressure: number) => {
       setMyPresence({
         pencilDraft: [[point.x, point.y, pressure]],
-        pencilColor: lastUsedColor,
+        penColor: lastUsedColor,
       });
     },
     [lastUsedColor]
